@@ -4,7 +4,7 @@ title: bgbrandongomez.GitHub.io by bgbrandongomez
 project: bgbrandongomez.github.io
 description: My website
 ---
-<!--<meta http-equiv="refresh" content="5;URL='https://SenorContento.github.io/'" />-->
+<meta http-equiv="refresh" content="5;URL='https://SenorContento.github.io/'" />
 
 ### Redirecting you to SenorContento.github.io...
         
