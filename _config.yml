@@ -18,7 +18,8 @@ defaults:
       projectid: bgbrandongomez.github.io
       developer: SenorContento
       description: Señor Contento's Website
-      site-url: https://bgbrandongomez.github.io
+      site-url: https://senorcontento.github.io
+      project-url: https://bgbrandongomez.github.io
       date: 0000-00-00 00:00:00
       branch: master
 
