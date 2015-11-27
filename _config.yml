@@ -14,7 +14,7 @@ defaults:
     values:
       layout: post
       title: Señor Contento's Site
-      project: bgbrandongomez.GitHub.io
+      project: bgbrandongomez.github.io
       projectid: bgbrandongomez.github.io
       developer: SenorContento
       description: Señor Contento's Website

@@ -1,6 +1,6 @@
 ---
 layout: redirect
-title: bgbrandongomez.GitHub.io by bgbrandongomez
+title: bgbrandongomez.github.io by bgbrandongomez
 project: bgbrandongomez.github.io
 description: My website
 ---
