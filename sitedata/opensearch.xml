@@ -1,0 +1,9 @@
+<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/"
+                       xmlns:moz="http://www.mozilla.org/2006/browser/search/">
+  <ShortName>Señor Contento's Blog</ShortName>
+  <Description>Search Señor Contento's Blog</Description>
+  <InputEncoding>UTF-8</InputEncoding>
+  <Image width="16" height="16" type="image/x-icon">http://127.0.0.1:4000/sitedata/images/favicon.ico</Image>
+  <Url type="text/html" method="get" template="https://www.google.com/?gws_rd=ssl#q=site:senorcontento.github.io%2Fblog%2F+{searchTerms}"/>
+  <moz:SearchForm>https://www.google.com</moz:SearchForm>
+</OpenSearchDescription>

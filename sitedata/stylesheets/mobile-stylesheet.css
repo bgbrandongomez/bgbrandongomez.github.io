@@ -10,6 +10,32 @@ body {
 
 /* General & 'Reset' Stuff */
 
+footer {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  background: #151515 url("../images/bkg.png") 0 0;
+  position:fixed;
+  bottom:0;
+  width:100%;
+  display: inline;
+}
+
+hr {
+  height: 0;
+  border: 0;
+  border-bottom: 1px dashed #b5e853;
+  color: #b5e853;
+
+  background: #151515 url("../images/bkg.png") 0 0;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  position:fixed;
+  bottom:16px; /*I really wish to find a way to make this relative to the footer (or make the background image in the footer cut off at this tag)*/
+  width:100%;
+}
+
 .container {
   width: 90%;
   max-width: 600px;
@@ -26,7 +52,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 li {
-  line-height: 1.4 ;
+  line-height: 1.4 ; /* This actually is the height for text inside the list item, not between list items */
+  margin: 10px 0; /* This is for between list items */
 }
 
 /* Header, <header>
@@ -34,6 +61,10 @@ li {
    h1       - project name
    h2       - project description
 */
+
+.inline {
+  display: inline;
+}
 
 header {
   background: rgba(0, 0, 0, 0.1);
@@ -163,26 +194,43 @@ pre {
   overflow-y: hidden;
 }
 
-table {
+table { /*Edits made by SenorContento */
   width: 100%;
   margin: 0 0 20px 0;
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  text-align: center;
 }
 
-th {
-  text-align: left;
-  border-bottom: 1px dashed #b5e853;
-  padding: 5px 10px;
+td, th { /* Added by SenorContento */
+  font-size: 1em;
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  padding: 3px 7px 2px 7px;
+  color: #b5e853;
+}
+
+tr td { /* Added by SenorContento */
+  color: #b5e853;
+  background: rgba(0, 0, 0, .5);
+}
+
+tr:nth-child(even) td { /* Added by SenorContento */
+  color: #b5e853;
+  background: rgba(0, 0, 0, 0.9);
 }
 
 td {
   padding: 5px 10px;
 }
 
-hr {
-  height: 0;
-  border: 0;
+/* Note that order does matter in a css file, especially when td, th is trying to set the text color to green instead of white */
+th { /*Edits made by SenorContento */
   border-bottom: 1px dashed #b5e853;
-  color: #b5e853;
+  padding: 5px 10px;
+  color: #ffffff;
+  background: rgba(0, 130, 0, 1);
+  font-weight: bold; /* Do note, on the table header tag, the font-weight: bold is unnecessary as the table header by default is bold */
+  text-align: center;
 }
 
 /* Buttons
@@ -229,6 +277,12 @@ hr {
 a {
   color: #63c0f5;
   text-shadow: 0 0 5px rgba(104, 182, 255, 0.5);
+}
+
+/* Paragraphs - Added by SenorContento */
+
+p {
+  text-indent: 50px;
 }
 
 /* Clearfix */
